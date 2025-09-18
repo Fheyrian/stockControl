@@ -23,8 +23,10 @@
             "App\\": "app/",
             "Config\\": "app/Config/"
         },
-        "exclude-from-classmap": [
-            "**/Database/Migrations/**"
+        "classmap": [
+            "app/Database/Migrations",
+            "app/Database/Seeds",
+            "tests/_support/Database/Migrations"
         ]
     },
     "autoload-dev": {

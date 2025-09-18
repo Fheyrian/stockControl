@@ -1,0 +1,3 @@
+1. Clone to xampp/htdoc
+2. Create DB 'stock_control'
+3. Run `php spark seed
