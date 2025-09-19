@@ -20,6 +20,7 @@ class MigrateSeed extends BaseCommand
         // Run seeders
         CLI::write('Seeding database...', 'green');
         $seeder = \Config\Database::seeder();
-        $seeder->call('UsersSeeder'); // you can chain more seeders here
+        $seeder->call('InitialSeeder'); // you can chain more seeders here
+        // $seeder->call('');
     }
 }
