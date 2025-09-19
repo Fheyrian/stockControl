@@ -57,11 +57,13 @@ class InitialSeeder extends Seeder
             [
                 'id_barang'   => 'BRG001',
                 'jumlah'      => 10,
+                'satuan'      => 'bh',
                 'last_update' => date('Y-m-d H:i:s'),
             ],
             [
                 'id_barang'   => 'BRG002',
                 'jumlah'      => 5,
+                'satuan'      => 'bh',
                 'last_update' => date('Y-m-d H:i:s'),
             ],
         ]);
@@ -100,6 +102,7 @@ class InitialSeeder extends Seeder
                 'id_dokumen'    => 1, // PO-2025-001
                 'type'          => 'IN',
                 'jumlah'        => 5,
+                'satuan'      => 'bh',
                 'harga'         => 8500000,
             ],
             [
@@ -108,6 +111,7 @@ class InitialSeeder extends Seeder
                 'id_dokumen'    => 2, // INV-2025-001
                 'type'          => 'OUT',
                 'jumlah'        => 1,
+                'satuan'      => 'bh',
                 'harga'         => 2500000,
             ],
         ]);

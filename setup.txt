@@ -2,4 +2,6 @@
 2. Create DB 'stock_control'
 3. Run `php spark seed`
 
-temporary testing run on http://localhost/stockControl/public/index.php/login
+temporary testing run on 
+login => http://localhost/stockControl/public/index.php/login
+getData => http://localhost/stockControl/public/barang

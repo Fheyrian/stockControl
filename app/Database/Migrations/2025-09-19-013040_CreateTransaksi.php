@@ -18,6 +18,7 @@ class CreateTransaksi extends Migration
             'id_dokumen'   => ['type' => 'BIGINT', 'unsigned' => true, 'null' => true],
             'type'         => ['type' => "ENUM('IN','OUT')"],
             'jumlah'       => ['type' => 'INT'],
+            'satuan'       => ['type' => 'VARCHAR', 'constraint'=> 50],
             'harga'        => ['type' => 'DECIMAL', 'constraint' => '12,2', 'null' => true],
             'id_user'      => ['type' => 'BIGINT', 'unsigned' => true, 'null' => true],
         ]);

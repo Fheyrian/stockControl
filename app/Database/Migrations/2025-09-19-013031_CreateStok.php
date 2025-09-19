@@ -15,6 +15,7 @@ class CreateStok extends Migration
             'id_stok'     => ['type' => 'BIGINT', 'unsigned' => true, 'auto_increment' => true],
             'id_barang'   => ['type' => 'VARCHAR', 'constraint' => 50],
             'jumlah'      => ['type' => 'INT', 'default' => 0],
+            'satuan'      => ['type' => 'VARCHAR', 'constraint'=> 50],
             'last_update' => ['type' => 'DATETIME', 'null' => true],
         ]);
         $this->forge->addKey('id_stok', true);

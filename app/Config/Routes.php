@@ -12,6 +12,8 @@ $routes->get('login', 'Auth::login');
 $routes->post('auth/attemptLogin', 'Auth::attemptLogin');
 $routes->get('auth/logout', 'Auth::logout');
 
+$routes->get('barang', 'BarangController::index', ['as'=> 'barang.index']);
+
 
 // Admin area
 $routes->group('admin', ['filter' => 'admin'], function($routes) {
